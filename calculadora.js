@@ -116,4 +116,16 @@ select.addEventListener('change',function(){
     if(op == '+'){
     imgOperacao.setAttribute('src', 'img/adicionar.png');
     }
+
+    if(op == '-'){
+        imgOperacao.setAttribute('src', 'img/subtracao.png');
+        }
+
+        if(op == '*'){
+            imgOperacao.setAttribute('src', 'img/multiplicacao.png');
+            }
+
+            if(op == '/'){
+                imgOperacao.setAttribute('src', 'img/divisao.png');
+                }
 })
