@@ -128,4 +128,13 @@ select.addEventListener('change',function(){
             if(op == '/'){
                 imgOperacao.setAttribute('src', 'img/divisao.png');
                 }
-})
+});
+
+//FUNÇÃO DE LIMPAR FURMULÁRIO
+function limpar(){
+
+    document.querySelector('#numero1').value = '';
+    document.querySelector('#numero2').value = '';
+    document.querySelector('#resultado').innerHTML = '-';
+
+}
